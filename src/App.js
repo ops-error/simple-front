@@ -24,7 +24,7 @@ function App() {
     city: '',
     address: '',
     region: '',
-    email: '',
+    email: ''
   });
   const [resPayData, setResPayData] = useState({
     transaction: '',
@@ -36,7 +36,7 @@ function App() {
     bank: '',
     delivery_cost: '',
     goods_total: '',
-    custom_fee: '',
+    custom_fee: ''
   });
   const [resItmData, setResItmData] = useState([{
     chrt_id: '',
@@ -48,7 +48,7 @@ function App() {
     total_price: '',
     nm_id: '',
     brand: '',
-    status: '',
+    status: ''
   }]);
   
   const sendRequest = (e) => {
